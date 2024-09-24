@@ -1,0 +1,82 @@
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ruqoyyah Table</title>
+  <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <!-- open modal button here -->
+    <div class="btn-container">
+        <button type="button"  id="open-modal" class="add-btn">Add</button>
+    </div>
+    <!-- table here -->
+  <table>
+    <thead>
+      <tr>
+           <th>S/N</th>
+            <th>Name</th>
+            <th>Age</th>
+            <th>Skill</th>
+      </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>1</td>
+            <td>Ruqoyyah</td>
+            <td>12</td>
+            <td>React</td>
+        </tr>
+        <tr>
+            <td>1</td>
+            <td>Ruqoyyah</td>
+            <td>12</td>
+            <td>React</td>
+        </tr>
+        <tr>
+            <td>1</td>
+            <td>Ruqoyyah</td>
+            <td>12</td>
+            <td>React</td>
+        </tr>
+        <tr>
+            <td>1</td>
+            <td>Ruqoyyah</td>
+            <td>12</td>
+            <td>React</td>
+        </tr>
+      
+    </tbody>
+  </table>
+
+  <!-- modal here -->
+  <div class="modal-css hidden" id="modal">
+    <div class="sub-modal">
+        <div class="header"> <h2>Fill your details</h2>
+            <div>
+            
+                <button class="close-button" id="close-btn" aria-label="Dismiss alert" type="button" data-close>
+                  <span aria-hidden="true" style="font-weight: bold; font-size: large;">&times;</span>
+                </button>
+              </div>
+        </div>
+      <form action="">
+        <label for="Name">Name</label> <br>
+        <input type="text" value="name"><br>
+        <label for="Name">Age</label> <br>
+        <input type="text" value="age"> <br>
+        <label for="Name">Skill</label> <br>
+        <input type="text" value="skill"> <br>
+
+        <div>
+            <button class="add-btn" style="width: 80%;">Add</button>
+        </div>
+      </form>
+        </div>
+</div>
+</body>
+</html>

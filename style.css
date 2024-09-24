@@ -1,0 +1,86 @@
+body {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+  }
+  
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+  }
+  
+  th, td {
+    padding: 12px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  th {
+    background-color: #f4f4f4;
+  }
+  
+  tr:nth-child(even) {
+    background-color: #f9f9f9;
+  }
+  
+  tr:hover {
+    background-color: #f1f1f1;
+  }
+  
+  td {
+    color: #555;
+  }
+  .btn-container {
+    display: flex;
+    justify-content: end;
+    align-items: end;
+  }
+  .add-btn {
+    padding: 8px 22px;
+    background-color: #555;
+    color: white;
+    border-radius: 5px;
+    margin: 18px 8px;
+    cursor: pointer;
+    
+  }
+
+  .modal-css {
+        display: flex; 
+        justify-content: center; 
+        align-items: center; 
+        height: 100vh; 
+        background-color: #f4f4f4;
+        box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1); 
+    
+  }
+
+  .hidden {
+    display: none; 
+  }
+  .sub-modal{
+    width: 450px; 
+    height: 60vh;
+    background-color: white;
+    border-radius: 0.5rem; 
+    padding: 2rem 2rem; 
+    
+    
+    overflow: hidden;
+  }
+
+  .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  label {
+   font-weight: 700;
+   margin-bottom: 5px;
+  }
+  input {
+    padding: 6px 4px;
+    width: 80%;
+    margin-top: 5px;
+    margin-bottom: 2rem;
+  }
