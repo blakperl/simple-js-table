@@ -18,37 +18,20 @@
   <table>
     <thead>
       <tr>
-           <th>S/N</th>
             <th>Name</th>
             <th>Age</th>
             <th>Skill</th>
       </tr>
     </thead>
-    <tbody>
-        <tr>
-            <td>1</td>
-            <td>Ruqoyyah</td>
-            <td>12</td>
-            <td>React</td>
-        </tr>
-        <tr>
-            <td>1</td>
-            <td>Ruqoyyah</td>
-            <td>12</td>
-            <td>React</td>
-        </tr>
-        <tr>
-            <td>1</td>
-            <td>Ruqoyyah</td>
-            <td>12</td>
-            <td>React</td>
-        </tr>
-        <tr>
-            <td>1</td>
-            <td>Ruqoyyah</td>
-            <td>12</td>
-            <td>React</td>
-        </tr>
+    <tbody id="body-cell">
+        <!-- <tr>
+            <td id="name-cell"></td>
+            <td id="age-cell"></td>
+            <td id="skill-cell"></td>      
+        </tr> -->
+        
+        <!-- this method would work if we only want to show a content at a time, but we are looking to continously adding
+            to our table list then we need to dynamically render the table in our js file -->
       
     </tbody>
   </table>
@@ -66,17 +49,18 @@
         </div>
       <form action="">
         <label for="Name">Name</label> <br>
-        <input type="text" value="name"><br>
+        <input id="name-input" type="text" value=""><br>
         <label for="Name">Age</label> <br>
-        <input type="text" value="age"> <br>
+        <input id="age-input" type="text" value=""> <br>
         <label for="Name">Skill</label> <br>
-        <input type="text" value="skill"> <br>
+        <input id="skill-input" type="text" value=""> <br>
 
         <div>
-            <button class="add-btn" style="width: 80%;">Add</button>
+            <button class="add-btn" id="submit-btn" style="width: 80%;">Add Item</button>
         </div>
       </form>
         </div>
 </div>
+<script src="./script.js"></script>
 </body>
 </html>

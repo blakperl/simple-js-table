@@ -49,8 +49,7 @@ body {
         display: flex; 
         justify-content: center; 
         align-items: center; 
-        height: 100vh; 
-        background-color: #f4f4f4;
+        background-color: #c2c0c0fc;
         box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1); 
     
   }
